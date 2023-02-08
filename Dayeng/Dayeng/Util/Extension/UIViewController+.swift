@@ -9,6 +9,21 @@ import UIKit
 
 extension UIViewController {
     
+    func showIndicator() {
+        let indicator = IndicatorView(frame: CGRect(x: 0,
+                                                    y: 0,
+                                                    width: view.frame.width,
+                                                    height: view.frame.height))
+        view.addSubview(indicator)
+        indicator.start()
+    }
+    
+    func hideIndicator() {
+        guard let indicator = view.subviews.last as? IndicatorView else { return }
+        indicator.stop()
+        indicator.removeFromSuperview()
+    }
+    
     func showAlert(
         title: String,
         message: String? = nil,

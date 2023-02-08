@@ -44,6 +44,7 @@
 		7628E68E298E4E83002D86F2 /* FirestoreDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7628E68D298E4E82002D86F2 /* FirestoreDatabaseService.swift */; };
 		7628E690298E4E9B002D86F2 /* FirestoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7628E68F298E4E9B002D86F2 /* FirestoreAPI.swift */; };
 		7628E692298E5009002D86F2 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7628E691298E5009002D86F2 /* MainPageViewController.swift */; };
+		76F68B712992B7A10027C658 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F68B702992B7A10027C658 /* IndicatorView.swift */; };
 		76F6C0A3298D968D00A124CD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6C0A2298D968D00A124CD /* MainViewController.swift */; };
 		76F6C0A5298D969700A124CD /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6C0A4298D969700A124CD /* MainViewModel.swift */; };
 		76F6C0A7298D96CF00A124CD /* CommonMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6C0A6298D96CF00A124CD /* CommonMainViewController.swift */; };
@@ -94,6 +95,7 @@
 		7628E68D298E4E82002D86F2 /* FirestoreDatabaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirestoreDatabaseService.swift; sourceTree = "<group>"; };
 		7628E68F298E4E9B002D86F2 /* FirestoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirestoreAPI.swift; sourceTree = "<group>"; };
 		7628E691298E5009002D86F2 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		76F68B702992B7A10027C658 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		76F6C0A2298D968D00A124CD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		76F6C0A4298D969700A124CD /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		76F6C0A6298D96CF00A124CD /* CommonMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMainViewController.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				E5D43436298A3905004EDFC7 /* CommonCalendarCell.swift */,
 				47C38780298E390D0030833F /* DayengAlertViewController.swift */,
 				47D1835A298A8DDD0058C0EC /* AuthButton.swift */,
+				76F68B702992B7A10027C658 /* IndicatorView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 				47D18361298B8D760058C0EC /* UIImage+.swift in Sources */,
 				E552C2282990BECC00F51179 /* SettingCell.swift in Sources */,
 				47D18359298A86F10058C0EC /* LoginViewController.swift in Sources */,
+				76F68B712992B7A10027C658 /* IndicatorView.swift in Sources */,
 				47D18364298D0EDC0058C0EC /* LoginViewModel.swift in Sources */,
 				E5D434002988CDE5004EDFC7 /* SplashViewController.swift in Sources */,
 				76F6C0A5298D969700A124CD /* MainViewModel.swift in Sources */,
